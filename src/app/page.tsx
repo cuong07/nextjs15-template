@@ -1,10 +1,10 @@
-import { ModeToggle } from "@/components/mode-toggle";
-import Image from "next/image";
+import { Welcome } from "@/components/welcome";
 
 export default function Home() {
   return (
     <div>
-      <ModeToggle />
+      {/* <ModeToggle /> */}
+      <Welcome />
     </div>
   );
 }
